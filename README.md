@@ -10,10 +10,12 @@ npm install --save-dev hardhat
 npm install --save-dev firebase
 ```
 
-2. Create the sample project. Use the JavaScript option.
+2. Create the sample project.
 ```
 npx hardhat
 ```
+
+Use the JavaScript option.
 
 3. Initialize firebase
 ```
