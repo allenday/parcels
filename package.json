@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "fb:start": "firebase emulators:start",
+    "hh:compile": "npx hardhat compile",
+    "hh:deploy": "npx hardhat run scripts/deploy.js --network localhost",
+    "hh:node": "npx hardhat node --hostname 0.0.0.0"
+  },
+  "devDependencies": {
+    "firebase": "^9.17.1",
+    "hardhat": "^2.12.7"
+  }
+}
