@@ -10,9 +10,12 @@ npm install --save-dev hardhat
 npm install --save-dev firebase
 ```
 
-2. Create the sample project.
+2. Create the sample project. The sample overwrites this file, so we work around.
 ```
+mv README.md README.md.bak
 npx hardhat
+cat README.md >> README.md.bak
+mv README.md.bak README.md
 ```
 
 Use the JavaScript option.
@@ -59,4 +62,5 @@ npm run hh:deploy
 
 - Check the [Hardhat getting started guide](https://hardhat.org/hardhat-runner/docs/getting-started#quick-start)
 - Check the [Firebase getting started guide](https://cloud.google.com/firestore/docs/client/get-firebase)
+
 
