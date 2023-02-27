@@ -75,6 +75,11 @@ npm run hh:deploy
 
 - https://css-tricks.com/things-ive-learned-css-grid-layout/
 - https://github.com/aarohmankad/identicon-api
+- https://github.com/gnidan/interval-trees-solidity
+- https://support.google.com/admanager/answer/2884033
+- https://support.google.com/admanager/answer/1628457
+- https://www.decentraboard.com/
+- https://fravoll.github.io/solidity-patterns/randomness.html
 
 
 # Sample Hardhat Project
